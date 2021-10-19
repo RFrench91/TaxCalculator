@@ -1,0 +1,5 @@
+{
+  "statusCode": 406,
+  "detail": "No country provided",
+  "error": "Not acceptable"
+}
