@@ -57,7 +57,7 @@ namespace TaxCalculator.Clients
 		{
 			if (body == null)
 			{
-
+				throw new Exception("No body provided for POST request");
 			}
 			var response = this.client.PostAsync(rootUrl + method, body);
 			var result = await response.Result.Content.ReadAsStringAsync();
